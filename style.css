@@ -1,0 +1,85 @@
+html{
+    background: teal;
+    background-size: cover;
+}
+body{
+    color: coral;
+    background: wheat;
+    padding: 25px ,100px;
+    text-align: center;
+    
+    border-radius: 100px;
+    margin:  auto;
+    
+}
+h1{
+    
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+h3{
+  color:rgb(57, 228, 51);
+  font-size: large;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    width:500px;
+}
+
+button{
+    background: crimson;
+    color: white;
+    margin: 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+.img{
+    text-align:left;
+    width: 500px;
+    
+    cursor: pointer;
+    display: none;
+}
+p{
+    
+    padding: 25px, 25px;
+}
+#instruct{
+  display: none;
+  background-color: rgb(29, 29, 29);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.mod {
+  background: white;
+  width: 500px;
+  margin: 100px auto;
+  padding: 25px 50px;
+}
+#after{
+  display: none;
+}
+
+.seled {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  padding: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.active {
+  color:darkblue;
+}
+.player{
+  width: 300px; 
+  height: 350px;
+}
